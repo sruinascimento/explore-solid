@@ -1,4 +1,4 @@
-package cotuba;
+package cotuba.domain;
 
 import java.util.Objects;
 

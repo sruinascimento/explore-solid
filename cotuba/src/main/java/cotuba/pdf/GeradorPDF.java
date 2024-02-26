@@ -1,4 +1,4 @@
-package cotuba;
+package cotuba.pdf;
 
 import com.itextpdf.html2pdf.HtmlConverter;
 import com.itextpdf.kernel.pdf.PdfDocument;
@@ -6,6 +6,8 @@ import com.itextpdf.kernel.pdf.PdfWriter;
 import com.itextpdf.layout.Document;
 import com.itextpdf.layout.element.*;
 import com.itextpdf.layout.property.AreaBreakType;
+import cotuba.domain.Capitulo;
+import cotuba.domain.Ebook;
 
 import java.nio.file.Files;
 import java.nio.file.Path;
