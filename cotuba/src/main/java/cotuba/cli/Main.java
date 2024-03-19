@@ -1,26 +1,26 @@
 package cotuba.cli;
 
+import cotuba.CotubaConfig;
 import cotuba.application.Cotuba;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 import java.nio.file.Path;
 
 public class Main {
 
     public static void main(String[] args) {
-        Path diretorioDosMD;
-        String formato;
         Path arquivoDeSaida;
         boolean modoVerboso = false;
 
         try {
-
             var opcoesCLI = new LeitorOpcoesCLI(args);
-            diretorioDosMD = opcoesCLI.getDiretorioDosMD();
-            formato = opcoesCLI.getFormato();
             arquivoDeSaida = opcoesCLI.getArquivoDeSaida();
 
-            var cotuba = new Cotuba();
-            cotuba.executar(formato, diretorioDosMD, arquivoDeSaida);
+            AnnotationConfigApplicationContext annotationConfigApplicationContext =
+                    new AnnotationConfigApplicationContext(CotubaConfig.class);
+            Cotuba cotuba = annotationConfigApplicationContext.getBean(Cotuba.class);
+
+            cotuba.executar(opcoesCLI);
 
             System.out.println("Arquivo gerado com sucesso: " + arquivoDeSaida);
 
