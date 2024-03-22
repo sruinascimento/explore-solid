@@ -1,9 +1,11 @@
 package cotuba.application;
 
+import cotuba.domain.FormatoEbook;
+
 import java.nio.file.Path;
 
 public interface ParametrosCotuba {
-    String getFormato();
+    FormatoEbook getFormato();
     Path getDiretorioDosMD();
     Path getArquivoDeSaida();
 }

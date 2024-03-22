@@ -6,7 +6,7 @@ import com.itextpdf.kernel.pdf.PdfWriter;
 import com.itextpdf.layout.Document;
 import com.itextpdf.layout.element.*;
 import com.itextpdf.layout.property.AreaBreakType;
-import cotuba.application.GeradorPDF;
+import cotuba.application.GeradorEbook;
 import cotuba.domain.Capitulo;
 import cotuba.domain.Ebook;
 import org.springframework.stereotype.Component;
@@ -16,9 +16,9 @@ import java.nio.file.Path;
 import java.util.List;
 
 @Component
-public class GeradorPDFComITextPDF implements GeradorPDF {
+public class GeradorPDF implements GeradorEbook {
     @Override
-    public void gerar(Ebook ebook) {
+    public void gera(Ebook ebook) {
         Path arquivoDeSaida = ebook.getArquivoDeSaida();
         try (var writer = new PdfWriter(Files.newOutputStream(arquivoDeSaida));
              var pdf = new PdfDocument(writer);

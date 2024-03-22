@@ -1,6 +1,6 @@
 package cotuba.epub;
 
-import cotuba.application.GeradorEPUB;
+import cotuba.application.GeradorEbook;
 import cotuba.domain.Capitulo;
 import cotuba.domain.Ebook;
 import nl.siegmann.epublib.domain.Book;
@@ -14,9 +14,9 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 
 @Component
-public class GeradorEpubComEpublib implements GeradorEPUB {
+public class GeradorEPUB implements GeradorEbook {
     @Override
-    public void gerar(Ebook ebook) {
+    public void gera(Ebook ebook) {
         Path arquivoDeSaida = ebook.getArquivoDeSaida();
         var epub = new Book();
 

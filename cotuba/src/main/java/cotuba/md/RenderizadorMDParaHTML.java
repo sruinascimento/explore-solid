@@ -1,6 +1,5 @@
 package cotuba.md;
 
-import cotuba.application.RenderizadorMDParaHTML;
 import cotuba.domain.Capitulo;
 import org.commonmark.node.*;
 import org.commonmark.parser.Parser;
@@ -14,8 +13,8 @@ import java.util.List;
 import java.util.stream.Stream;
 
 @Component
-public class RenderizadorMDParaHTMLComCommonMark implements RenderizadorMDParaHTML {
-    @Override
+public class RenderizadorMDParaHTML {
+
     public List<Capitulo> renderizar(Path diretorioDosMD) {
         return obterArquivosMD(diretorioDosMD)
                 .stream()
