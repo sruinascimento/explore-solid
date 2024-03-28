@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fad25aa2-a4f9-40c7-affa-6c3a860668ec" name="Changes" comment="feat: chapter 5 about OCP was finished">
+      <change beforePath="$PROJECT_DIR$/cotuba/src/main/java/cotuba/application/Cotuba.java" beforeDir="false" afterPath="$PROJECT_DIR$/cotuba/src/main/java/cotuba/application/Cotuba.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cotuba/src/main/java/cotuba/md/RenderizadorMDParaHTML.java" beforeDir="false" afterPath="$PROJECT_DIR$/cotuba/src/main/java/cotuba/md/RenderizadorMDParaHTML.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2crdGkov7wxTXmc4628JLg1qozu" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "Maven.cotuba-cli [clean,install].executor": "Run",
+    "Maven.cotuba-cli [clean,package].executor": "Run",
+    "Maven.cotuba-cli [clean].executor": "Run",
+    "Maven.cotuba-cli [install].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/rui/IdeaProjects/explore-solid/tema-paradizo",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="cotuba.pdf" />
+      <recent name="cotuba.md" />
+      <recent name="cotuba.epub" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn install" />
+      <command value="mvn clean install" />
+      <command value="mvn clean" />
+      <command value="mvn clean package" />
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cotuba.cli.Main" />
+      <module name="cotuba-cli" />
+      <option name="PROGRAM_PARAMETERS" value="-v" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cotuba.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.2-corretto-21.0.2-4caba194b151-fd297b8c" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fad25aa2-a4f9-40c7-affa-6c3a860668ec" name="Changes" comment="" />
+      <created>1708873537644</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1708873537644</updated>
+      <workItem from="1708873538681" duration="7888000" />
+      <workItem from="1708948909971" duration="4214000" />
+      <workItem from="1710849514200" duration="6612000" />
+      <workItem from="1710859464355" duration="8000" />
+      <workItem from="1710859486489" duration="608000" />
+      <workItem from="1711025854787" duration="1921000" />
+      <workItem from="1711033254135" duration="1191000" />
+      <workItem from="1711107487100" duration="5929000" />
+      <workItem from="1711377469375" duration="435000" />
+      <workItem from="1711650448283" duration="1728000" />
+    </task>
+    <task id="LOCAL-00001" summary="feat: chapter 3 about SRP was finished">
+      <option name="closed" value="true" />
+      <created>1708952936116</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1708952936116</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: chapter 3 about SRP was finished" />
+    <MESSAGE value="feat: chapter 5 about OCP was finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: chapter 5 about OCP was finished" />
+  </component>
+</project>
