@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fad25aa2-a4f9-40c7-affa-6c3a860668ec" name="Changes" comment="feat: chapter 5 about OCP was finished">
-      <change beforePath="$PROJECT_DIR$/cotuba/src/main/java/cotuba/application/Cotuba.java" beforeDir="false" afterPath="$PROJECT_DIR$/cotuba/src/main/java/cotuba/application/Cotuba.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cotuba/src/main/java/cotuba/md/RenderizadorMDParaHTML.java" beforeDir="false" afterPath="$PROJECT_DIR$/cotuba/src/main/java/cotuba/md/RenderizadorMDParaHTML.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/copilot/chatSessions/00000000000.xd" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/copilot/chatSessions/00000000000.xd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/copilot/chatSessions/xd.lck" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/copilot/chatSessions/xd.lck" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,27 +37,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "Maven.cotuba-cli [clean,install].executor": "Run",
-    "Maven.cotuba-cli [clean,package].executor": "Run",
-    "Maven.cotuba-cli [clean].executor": "Run",
-    "Maven.cotuba-cli [install].executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/rui/IdeaProjects/explore-solid/tema-paradizo",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.cotuba-cli [clean,install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.cotuba-cli [clean,package].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.cotuba-cli [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.cotuba-cli [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.cotuba-cli [package].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/rui/IdeaProjects/explore-solid/tema-paradizo&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="cotuba.pdf" />
@@ -67,9 +69,10 @@
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="mvn install" />
-      <command value="mvn clean install" />
       <command value="mvn clean" />
       <command value="mvn clean package" />
+      <command value="mvn clean install" />
+      <command value="mvn package" />
     </option>
   </component>
   <component name="RunManager">
@@ -117,7 +120,10 @@
       <workItem from="1711033254135" duration="1191000" />
       <workItem from="1711107487100" duration="5929000" />
       <workItem from="1711377469375" duration="435000" />
-      <workItem from="1711650448283" duration="1728000" />
+      <workItem from="1711650448283" duration="2123000" />
+      <workItem from="1711976577821" duration="171000" />
+      <workItem from="1711980122110" duration="2126000" />
+      <workItem from="1711998925812" duration="951000" />
     </task>
     <task id="LOCAL-00001" summary="feat: chapter 3 about SRP was finished">
       <option name="closed" value="true" />
