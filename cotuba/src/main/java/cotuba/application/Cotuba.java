@@ -2,7 +2,7 @@ package cotuba.application;
 
 import cotuba.domain.*;
 import cotuba.md.RenderizadorMDParaHTML;
-import cotuba.plugin.Plugin;
+import cotuba.plugin.AoFinalizarGeracao;
 import org.springframework.stereotype.Component;
 
 import java.nio.file.Path;
@@ -24,7 +24,7 @@ public class Cotuba {
 
         GeradorEbook geradorEbook = GeradorEbook.cria(formato);
         geradorEbook.gera(ebook);
-        Plugin.gerou(ebook);
+        AoFinalizarGeracao.gerou(ebook);
     }
 
 }

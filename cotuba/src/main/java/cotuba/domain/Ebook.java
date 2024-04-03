@@ -1,10 +1,12 @@
 package cotuba.domain;
 
+import cotuba.plugin.EbookSoParaLeitura;
+
 import java.nio.file.Path;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Ebook {
+public class Ebook implements EbookSoParaLeitura {
     private FormatoEbook formato;
     private Path arquivoDeSaida;
     List<Capitulo> capitulos = new ArrayList<>();
